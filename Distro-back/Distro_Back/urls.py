@@ -14,7 +14,7 @@ from polls import api_endpoints
 
 
 
-router = routers.DefaultRouter()
+router = routers.SimpleRouter()
 
 router.register('translations',api_endpoints.Translations_Set)
 router.register('links',api_endpoints.links_Set)
