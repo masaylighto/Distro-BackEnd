@@ -11,7 +11,7 @@ class TranslationAdmin(admin.ModelAdmin):
 class linksAdmin(admin.ModelAdmin):
     list_display = ("name", "link","language")
 class DistroAdmin(admin.ModelAdmin):
-    list_display = ("name", "Desk","link")
+    list_display = ("name", "Desc","link")
 # Register your models here.
 
 admin.site.register(Translation,TranslationAdmin)
